@@ -1,0 +1,12 @@
+src/
+├── main/
+│   ├── java/
+│   │   ├── com.cabbooking/       // Package chính
+│   │   │   ├── controllers/      // Các API endpoint
+│   │   │   ├── models/           // Các class Entity
+│   │   │   ├── repositories/     // Interface JPA Repository
+│   │   │   ├── services/         // Business logic
+│   │   │   └── CabBookingApplication.java
+│   └── resources/
+│       ├── application.properties // Cấu hình (DB, Port, API Key)
+│       └── schema.sql             // Script SQL

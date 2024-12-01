@@ -56,6 +56,11 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<dependency>
+		<groupId>jakarta.persistence</groupId>
+		<artifactId>jakarta.persistence-api</artifactId>
+		<version>3.1.0</version> <!-- Phiên bản mới nhất của Jakarta Persistence -->
+	</dependency>
 
 	<build>
 		<plugins>
